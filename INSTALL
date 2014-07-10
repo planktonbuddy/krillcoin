@@ -1,0 +1,9 @@
+Building Krillcoin
+
+See doc/readme-qt.rst for instructions on building Krillcoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Krillcoin.
+
+See doc/build-*.txt for instructions on building krillcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Krillcoin.
