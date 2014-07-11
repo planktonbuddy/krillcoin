@@ -2685,8 +2685,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 31124 or testnet: 32124)</source>
-        <translation>Ascultă pentru conectări pe &lt;port&gt; (implicit:  31124 sau testnet: 32124) </translation>
+        <source>Listen for connections on &lt;port&gt; (default: 31126 or testnet: 32126)</source>
+        <translation>Ascultă pentru conectări pe &lt;port&gt; (implicit:  31126 sau testnet: 32126) </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2745,8 +2745,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 31123 or testnet: 32123)</source>
-        <translation>Ascultă pentru conexiuni JSON-RPC pe &lt;port&gt; (implicit:31123 sau testnet: 32123)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 31125 or testnet: 32125)</source>
+        <translation>Ascultă pentru conexiuni JSON-RPC pe &lt;port&gt; (implicit:31125 sau testnet: 32125)</translation>
     </message>
     <message>
         <location line="-11"/>

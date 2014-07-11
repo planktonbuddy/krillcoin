@@ -2684,8 +2684,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 31124 or testnet: 32124)</source>
-        <translation>Počúvať pripojenie na &lt;port&gt; (predvolené: 31124 alebo testovaciasieť: 32124)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 31126 or testnet: 32126)</source>
+        <translation>Počúvať pripojenie na &lt;port&gt; (predvolené: 31126 alebo testovaciasieť: 32126)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2744,8 +2744,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 31123 or testnet: 32123)</source>
-        <translation>Počúvajte pre JSON-RPC spojenie na &lt;port&gt; (predvolené: 31123 alebo testovaciasieť: 32123)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 31125 or testnet: 32125)</source>
+        <translation>Počúvajte pre JSON-RPC spojenie na &lt;port&gt; (predvolené: 31125 alebo testovaciasieť: 32125)</translation>
     </message>
     <message>
         <location line="-11"/>
