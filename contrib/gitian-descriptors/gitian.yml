@@ -14,7 +14,7 @@ packages:
 - "libpng12-dev"
 reference_datetime: "2011-01-30 00:00:00"
 remotes:
-- "url": "https://github.com/krillcoin/krillcoin.git"
+- "url": "https://github.com/planktonbuddy/krillcoin.git"
   "dir": "krillcoin"
 files:
 - "krillcoin-deps-linux32-gitian-r2.zip"
