@@ -977,7 +977,7 @@ int64_t GetProofOfWorkReward(int32_t nHeight, int64_t nFees)
     if(nHeight < 100) {
         nSubsidy = 1 * COIN;
     } else if (nHeight <= nLastPowBlock) {
-        return 100;
+        return 100 * COIN;
     }
 
     if (fDebug && GetBoolArg("-printcreation"))
@@ -2468,9 +2468,9 @@ bool LoadBlockIndex(bool fAllowNew)
         if (!fAllowNew)
             return false;
 
-        const char* pszTimestamp = "CNN July 10, 2014 Germany expels U.S. Embassy official";
+        const char* pszTimestamp = "https://bitcointalk.org/index.php?topic=685380";
         CTransaction txNew;
-        txNew.nTime = 1405009875;
+        txNew.nTime = 1405038132;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -2480,9 +2480,9 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 6;
-        block.nTime    = 1405009875;
+        block.nTime    = 1405038132;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = fTestNet ? 38379 : 1219095;
+        block.nNonce   = fTestNet ? 8710 : 1787252;
         
         if(block.GetHash() != (fTestNet ? hashGenesisBlockTestNet : hashGenesisBlock))
         {
@@ -2493,7 +2493,7 @@ bool LoadBlockIndex(bool fAllowNew)
         }
         
         //// debug print
-        assert(block.hashMerkleRoot == uint256("0xadda507b5f2f2ceefa2cc766946513b37d3af533c9f9f5a72cc542f2b9adb48b"));
+        assert(block.hashMerkleRoot == uint256("0x29adc728cc29240af9885d3711e66ce445b2e3489b129b57da0bd2c1c4cbf5b2"));
         block.print();
         assert(block.GetHash() == (fTestNet ? hashGenesisBlockTestNet : hashGenesisBlock));
         assert(block.CheckBlock());
