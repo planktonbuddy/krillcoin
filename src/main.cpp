@@ -974,7 +974,7 @@ int64_t GetProofOfWorkReward(int32_t nHeight, int64_t nFees)
     int64_t nSubsidy = 0;
     
     // anti-instamine
-    if(nHeight < 100) {
+    if(nHeight <= 100) {
         nSubsidy = 1 * COIN;
     } else if (nHeight <= nLastPowBlock) {
         return 100 * COIN;
